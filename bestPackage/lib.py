@@ -7,8 +7,16 @@ from os.path import split
 import pandas as pd
 import datetime
 
-pd.set_option('display.width', 200)
+def try_me():
+    print('Well done, you have tried successfully')
 
+
+
+
+
+
+
+pd.set_option('display.width', 200)
 
 def clean_data(data):
     """ clean data
